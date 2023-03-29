@@ -1,5 +1,4 @@
 import MovieCard from './Moviecard';
-import { Link } from 'react-router-dom';
 import Search from './SearchResults';
 import SearchPage from './SearchPage';
 import Layout from './Layout';

@@ -1,6 +1,5 @@
 
 
-import { Link } from "react-router-dom";
 
 export default function MovieCard({title, img, year, rating, genre, slug }){
     /*

@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+
 export default function SearchPage({movies}){
     const {slug} = useParams()
     const movie = movies.find((rec) => rec?.movie?.label.replace(/\s/g, "-").toLowerCase() === slug)

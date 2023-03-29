@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {useState, useEffect} from "react";
 import Main from './components/Main';
-import './css/main.css'
+import '../src/components/css/main.css'
 
 export default function App() {
     const [recipes, setRecipes] = useState([])
